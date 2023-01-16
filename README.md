@@ -15,7 +15,7 @@ Choose any javascript frameworks or libraries you want to use. Preferences are
 ### Backend: 
 - NestJs
 - ExpressJs
-###Database:
+### Database:
 - Postgres
 - Supabase
 
