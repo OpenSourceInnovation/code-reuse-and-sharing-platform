@@ -1,0 +1,30 @@
+/* .profile-container{
+    background-image: url("/public/banner.png");
+    padding: 0;
+    height: 100%;
+} */
+* {
+    margin-bottom: 0;
+}
+
+.btn {
+    margin: 0px 10px 0px 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navlogo {
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.profile-parent {
+    margin-top: 50px;
+}
+
+.navbar {
+    font-size: 18px;
+    font-weight: 500;
+}
