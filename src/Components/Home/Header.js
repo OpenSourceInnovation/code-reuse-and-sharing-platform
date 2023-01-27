@@ -1,7 +1,5 @@
 import React from 'react'
 import './Header.css';
-// import Typical from 'react-typical'
-
 
 export default function header() {
   return (
@@ -33,9 +31,7 @@ export default function header() {
                   <li><a className="dropdown-item" href="#">Developers</a></li>
                 </ul>
               </li>
-              {/* <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
-        </li> */}
+
             </ul>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
@@ -46,8 +42,6 @@ export default function header() {
           </div>
         </div>
       </nav>
-
-
     </div>
   );
 }

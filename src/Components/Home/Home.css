@@ -1,21 +1,42 @@
-.container {
-    /* width: 100%; */
-    /* margin: auto; */
-    display: grid;
-    grid-template-columns: auto auto ;
-    columns: 2;
+.classeswrapper {
+    display: "flex";
+    flex-direction: "row";
+    background-image: url("/public/banner.png");
+    justify-content: "center";
+    align-items: "center";
+    width: 100%;
+    height: 75vh;
+    margin: auto;
 }
 
-/* .heading{
-    display: inline-grid;
+/* .container{
+    width:1140px;
+    margin: auto;     
 } */
+.heading {
+    width: 50%;
+    display: inline-block;
+}
 
-h1{
+.hello {
+    margin-left: 50px;
+}
+
+.pb-2 {
+    color: yellow;
+    justify-content: center;
+    text-shadow: 0 0 2px #000;
+    margin-left: 15vh;
+    font-size: 62px;
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
     margin-top: 10vh;
     color: yellow;
     justify-content: center;
     text-shadow: 0 0 2px #000;
-    width: 50%;
     margin-left: 15vh;
     font-size: 62px;
     font-family: 'Noto Sans Tangsa', sans-serif;
@@ -24,62 +45,71 @@ h1{
 
 h2 {
     margin: 20px;
-    width: 30%;
-    margin-left: 25vh;
+    margin-left: 15vh;
     justify-content: center;
     text-align: center;
-    
+
 }
 
-button{
+button {
     background-color: greenyellow;
-        border: 0;
-        outline: none;
-        color: rgb(235, 50, 18);
-        padding: 15px 15px;
-        margin-top: 40px;
-        margin-left: 18vh;
-        font-size: 24px;
-        border-radius: 43px;
-        font-weight: 600;
-        width: fit-content;
-        margin-bottom: 30vh;
+    border: 0;
+    outline: none;
+    color: rgb(235, 50, 18);
+    padding: 15px 15px;
+    margin-top: 40px;
+    /* margin-left: 18vh; */
+    font-size: 24px;
+    border-radius: 43px;
+    font-weight: 600;
+    width: fit-content;
+    margin-bottom: 30vh;
 }
 
-.B2{
-    margin-left: 100px;
+#B1 {
+    margin-left: 23vh;
+}
+
+#B2 {
+    margin-left: 40px;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
 
+hr {
+    margin: 1em -1em;
+    height: 6px;
+    filter: blur(2px);
+    border-radius: 5px;
+    background: rgb(220, 185, 185);
+    z-index: 1000;
+}
 
+/*  */
 
-
-
-
-.aboutheading{
+.aboutheading {
     color: #fff;
     text-align: center;
     justify-content: center;
-    margin-left: 40vh;
     display: flex;
+    margin-right: 150px;
     margin-top: 20px;
     text-decoration: underline;
-    
+
 }
 
-.aboutp{
+.aboutp {
     font-size: 20px;
     margin-top: 30px;
     line-height: 30px;
-    width: 60%;
     margin-left: 40px;
 }
 
 
-.bannerimg1{
+.bannerimg1 {
     /* margin: 0; */
     z-index: 1000;
     display: flex;
@@ -91,10 +121,10 @@ a{
     top: 10px;
     width: 400px;
     margin-right: 30px;
-    
+
 }
 
-.bannerimg2{
+.bannerimg2 {
     /* margin: 0; */
     z-index: 1000;
     display: flex;
@@ -103,8 +133,8 @@ a{
     float: left;
     margin-left: 10vh;
     right: 0;
-    
+
     width: 400px;
     margin-right: 30px;
-    
+
 }
